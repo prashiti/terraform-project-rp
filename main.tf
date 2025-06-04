@@ -12,7 +12,7 @@ provider "aws" {
   region = "eu-west-2"
 }
 resource "aws_instance" "instance-test" {
-    ami = "ami-0c55b159cbfafe1f0"
+    ami = "ami-0072acb6a5a03c449"
     instance_type = "t2.micro"
 
     tags = {
